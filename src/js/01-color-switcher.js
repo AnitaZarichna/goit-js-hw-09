@@ -16,7 +16,7 @@ stopBtn.disabled = false;
 body.style.backgroundColor = getRandomHexColor ();
 timerID = setInterval(() => {
     body.style.backgroundColor = getRandomHexColor();
-}, 1000);
+}, 500);
 }
 
 function onStopBtn() {
